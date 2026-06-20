@@ -5,6 +5,9 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 img {
@@ -36,7 +39,7 @@ ul li {
 
 a {
   text-decoration: none;
-  color: #aaa;
+  color: #555;
 }
 
 .header,
@@ -54,4 +57,15 @@ a {
 
 .footer {
   background-color: #eee;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+button {
+  padding: 10px;
 }
